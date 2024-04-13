@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images.jpg'); /* Ruta a tu imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* La imagen de fondo permanece fija */
+
+}
+
+
+
+header {
+    background-color: #350000;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f3f3f3;
+}
+
+#navbar {
+    display: flex;
+}
+
+#navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+#user-info {
+    display: flex;
+    align-items: center;
+}
+
+#user-info img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#image-slider {
+    position: relative;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+.image-container {
+    display: none;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 300px;
+}
+
+#prev-btn,
+#next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Cambiado a un tono más oscuro */
+    border: none;
+    color: #fff; /* Cambiado a blanco para contraste */
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+}
+
+#prev-btn {
+    left: 10px;
+}
+
+#next-btn {
+    right: 10px;
+}
+
+#description {
+    background-color: #494949; /* Cambiado a un gris oscuro */
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #ffffff; /* Cambiado a blanco para contraste */
+}
+
+#description h2 {
+    margin-top: 0;
+}
+
+#description p {
+    margin-bottom: 10px;
+}
+
+#contact {
+    background-color: #350000; /* Cambiado a un tono vino */
+    padding: 20px; 
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #ffffff; /* Cambiado a blanco para contraste */
+}
+
+#contact h3 {
+    margin-top: 0;
+}
+
+#footer {
+    margin-top: 20px;
+}
+
+.social-icons img {
+    width: 1330px;
+    height: 400px;
+}
